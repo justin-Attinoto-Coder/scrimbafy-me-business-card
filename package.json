@@ -1,0 +1,22 @@
+{
+  "name": "scrimbafy-me-business-card",
+  "version": "1.0.0",
+  "description": "An epic, state-of-the-art business card web app showcasing responsive design prowess",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "business-card",
+    "portfolio",
+    "responsive",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT"
+}
