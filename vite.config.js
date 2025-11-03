@@ -6,7 +6,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     minify: 'esbuild',
-    sourcemap: false
+    sourcemap: process.env.NODE_ENV !== 'production'
   },
   server: {
     port: 3000,
